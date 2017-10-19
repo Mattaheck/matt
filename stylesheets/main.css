@@ -26,6 +26,7 @@ div {
 	--scheme-c3: #ABC0A8;
 	--scheme-c3-h: #375C38;
 }
+
 body {
 	padding: 0px;
 	margin: 0px;
@@ -34,7 +35,7 @@ div {
 	font-family: var(--font);
 }
 .background {
-	background: url("../images/painting_2.jpeg") no-repeat center center fixed;
+	background: url("michigan.jpg") no-repeat center center fixed;
 	position: fixed;
   	height: 100%;
   	width: 100%;
@@ -62,16 +63,7 @@ div {
 	-moz-transition: all .5s linear;
     transition: all .5s linear;
 }
-/* .navbar-positioner {
-	position: absolute;
-	bottom: 0px;
-	width: 100%;
-	height: 5px;
-	background-color: red;
-}
-.navbar-inactive {
-	background-color: rgba(108, 144, 168, 0);
-}*/
+
 .navbar-button, .navbar-button a {
 	padding: 0px 12px 0px;
 	color: var(--text-color);
@@ -103,25 +95,25 @@ div {
 	text-align: center;
 }
 
-.project-section {
+.music-section {
 	position: relative;
 	width: 100%;
 	height: 100%;
 }
-.project-container {
+.music-container {
 	position: absolute;
 	width: 1200px;
 	top: 50%;
 	left: 50%;
 	margin: 100px 0 0 -600px;
 }
-.detail-section {
+.community-section {
 	position: relative;
 	width: 100%;
 	height: 50px;
 	background-color: var(--text-color);
 }
-.detail-container {
+.community-container {
 	position: absolute;
 	width: 80%;
 	margin: 10px 10% 10px;
@@ -284,12 +276,12 @@ div {
 	background-color: var(--scheme-c3-h);
 }
 /* blog-container specific information */
-.blog-section {
+.music-section {
 	position: relative;
 	width: 100%;
 	height: 100%;`
 }
-.blog-container {
+.music-container {
 	position: absolute;
 	width: 800px;
 	top: 50%;
@@ -344,20 +336,7 @@ h1 {
 	font-size: 14px;
 }
 
-/*.sort-header {
-	font-family: arial;
-	background-color: var(--text-color-2);
-	text-align: center;
-	height: 30px;
-	margin-bottom: 10px;
-	padding: 5px 0px 5px;
-	text-transform: lowercase;
-	font-size: 1.8em;
-	color: var(--text-contrast);
-	font-style: italic;
-	font-weight: bold;
-	letter-spacing: 6px;
-}*/
+
 .sort-item {
 	float: left;
 	margin: 0px 0px 10px;
@@ -373,37 +352,3 @@ h1 {
 	margin-left: 30px;
 	color: var(--text-color);
 }
-/*.article {
-	text-align: center;
-	float: left;
-	width: 320px;
-	height: 320px;
-	padding: 40px;
-	color: var(--scheme-c3-h);
-	text-decoration: none;
-	margin: 0px;
-}
-.article .title {
-	font-size: 20px;
-	height: 30%;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-}
-.article .subtitle {
-	font-size: 16px;
-	margin-top: 15px;
-	height: 50%;
-}
-.article .group {
-	height: 10%;
-	font-size: 16px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-}
-.date {
-	font-size: 11px;
-	height: 10%;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-}*/
