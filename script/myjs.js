@@ -25,15 +25,15 @@ $(document).ready(function() {
         }, 500);
     });
     ////////////////////////////////////////////
-    $("#navbar-projects").click(function() {
+    $("#navbar-music").click(function() {
         $('html, body').animate({
-            scrollTop: ($("#project-section").offset().top - 50)
+            scrollTop: ($("#music-section").offset().top - 50)
         }, 500);
     });
     ////////////////////////////////////////////
-    $("#navbar-blog").click(function() {
+    $("#navbar-community").click(function() {
         $('html, body').animate({
-            scrollTop: ($("#blog-section").offset().top - 50)
+            scrollTop: ($("#community-section").offset().top - 50)
         }, 500);
     });
     ////////////////////////////////////////////
