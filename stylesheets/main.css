@@ -3,10 +3,7 @@
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
 }
-@font-face {
-    font-family: Aileron;
-    src: url("../fonts/aileron/Aileron-Light.otf");
-}
+
 
 div {
 	font-family: Arial;
@@ -35,7 +32,7 @@ div {
 	font-family: var(--font);
 }
 .background {
-	background: url("michigan.jpg") no-repeat center center fixed;
+	background: url("img/matt-drums-wide.jpg") no-repeat center;
 	position: fixed;
   	height: 100%;
   	width: 100%;
@@ -121,7 +118,7 @@ div {
 	text-align: center;
 }
 
-.
+
 /* home-page specific code */
 .left-icon {
 	position: absolute;
